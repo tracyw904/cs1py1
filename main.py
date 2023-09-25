@@ -1,13 +1,7 @@
-fruit = "Apples, Oranges"
-berries = "Blueberries, Strawberries, Raspberries"
-stoneFruit = "Peaches, Plums"
+pi = 3.141
+r = float(input("Please enter value: ")) 
+print(r)
 
-print(berries + ", " + fruit + ", " + stoneFruit)
+area = pi*r*r 
 
-#if you dont list variable as a string then it will only print the assigned elements 2.9.2
-
-fruit = "Apples, Oranges"
-berries = "Blueberries, Strawberries, Raspberries"
-stoneFruit = "Peaches, Plums"
-
-print(fruit + ", " + berries + ", " + stoneFruit)
+print(area)
